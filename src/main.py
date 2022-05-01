@@ -1,4 +1,3 @@
-from genericpath import exists
 from bitcoin import bitcoin_main as btc
 from litecoin import litecoin_main as ltc
 from dogecoin import dogecoin_main as doge
