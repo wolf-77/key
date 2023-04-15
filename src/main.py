@@ -7,7 +7,7 @@ import sys
 
 try:
     _argv = sys.argv
-    print(_argv)
+    # print(_argv)
     coin_list = ['BTC', 'BCH', 'LTC', 'DOGE', 'ETH']
     if len(_argv) == 3:
         network = _argv[2]
