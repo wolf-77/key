@@ -2,15 +2,14 @@
   "name": "wallet-gen",
   "version": "1.0.0",
   "description": "",
-  "main": "isAddressValid.js",
+  "main": "index.js",
   "scripts": {
-    "test": "nodemon test/isAddressValid.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "keccak256": "^1.0.6",
-    "multicoin-address-validator": "^0.5.9"
+    "keccak256": "^1.0.6"
   }
 }
